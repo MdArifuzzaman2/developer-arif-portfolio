@@ -12,9 +12,11 @@ h1 {
 }
 h3 {
   text-align: justify;
+  color: orange;
 }
 h2 {
-  text-align: justify;
+  text-align: center;
+  color: skyblue;
 }
 section {
   display: flex;
@@ -32,11 +34,11 @@ div img {
 }
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(brown, red);
+  background-image: linear-gradient(brown, rgb(232, 56, 86));
   color: #030201;
-  padding: 5px 15px;
+  padding: 10px 25px;
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .top-banner {
   background-image: url(images/top-banner.png);
