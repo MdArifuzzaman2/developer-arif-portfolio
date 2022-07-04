@@ -20,17 +20,20 @@ h2 {
 }
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 div img {
-  margin-top: 35px;
+  margin-top: 15px;
   margin-right: 50px;
-  padding-left: 50;
+  padding-left: 50px;
 }
 .half1 {
   padding-left: 25px;
+  padding-right: 20px;
 }
 .half2 {
   padding-left: 25px;
+  padding-right: 20px;
 }
 .link-button {
   text-decoration: none;
@@ -43,4 +46,26 @@ div img {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream {
+  color: red;
+  font-size: 20px;
+}
+.change-color {
+  color: blueviolet;
+}
+.link-button1 {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(203, 23, 158), rgb(232, 56, 229));
+  color: #030201;
+  padding: 10px 25px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.dream-bg {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+
+  background-position: right;
+  margin: 10px;
 }
