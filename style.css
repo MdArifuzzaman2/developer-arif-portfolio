@@ -14,9 +14,9 @@ h3 {
   text-align: justify;
   color: orange;
 }
-h2 {
+.heading {
   text-align: center;
-  color: rgb(209, 24, 200);
+  color: rgb(5, 126, 183);
 }
 .flexible-container {
   display: flex;
@@ -54,6 +54,9 @@ div img {
 }
 .change-color {
   color: blueviolet;
+}
+.heading1 {
+  color: rgb(143, 14, 134);
 }
 .link-button1 {
   text-decoration: none;
