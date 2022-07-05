@@ -79,13 +79,32 @@ div img {
 }
 .margin-padding {
   margin-left: 20px;
-  width: 34%;
+  margin-right: 15px;
+  width: 40%;
+  box-shadow: 10px 10px 25px gray;
+  padding: 25px;
+  border-radius: 25px;
 }
-.margin-padding1 {
-  margin-left: 20px;
-  width: 33%;
+#full-stack-developer {
+  border-left: 5px solid brown;
+  border-top: 4px solid orangered;
+  border-right: 5px solid yellow;
+  border-bottom: 4px solid chocolate;
 }
-.margin-padding2 {
-  margin-left: 20px;
-  width: 33%;
+#backend-developer {
+  border-left: 5px solid rgb(123, 8, 169);
+  border-top: 4px solid rgb(14, 101, 199);
+  border-right: 5px solid blue;
+  border-bottom: 4px solid rgb(10, 175, 161);
+}
+#frontend-developer {
+  border-left: 5px solid green;
+  border-top: 4px solid lightseagreen;
+  border-right: 5px solid rgb(155, 11, 11);
+  border-bottom: 4px solid rgb(167, 187, 9);
+}
+footer p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
 }
