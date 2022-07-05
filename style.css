@@ -16,9 +16,9 @@ h3 {
 }
 h2 {
   text-align: center;
-  color: skyblue;
+  color: rgb(209, 24, 200);
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -69,4 +69,20 @@ div img {
 
   background-position: right;
   margin: 10px;
+}
+.exp {
+  margin-top: 100px;
+  margin-left: 15px;
+}
+.margin-padding {
+  margin-left: 20px;
+  width: 34%;
+}
+.margin-padding1 {
+  margin-left: 20px;
+  width: 33%;
+}
+.margin-padding2 {
+  margin-left: 20px;
+  width: 33%;
 }
